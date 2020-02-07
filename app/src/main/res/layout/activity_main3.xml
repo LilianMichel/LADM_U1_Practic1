@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/imagen3"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15sp"
+        android:text="18 Educational Android Apps for Teachers"
+        android:textColor="#FFF"
+        android:textSize="35sp">
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="15sp"
+                    android:background="#C4BDBD"
+                    android:gravity="center"
+                    android:text="Android \n Note \n Taking \n Apps"
+                    android:textColor="#770303"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15sp"
+                    android:background="#C4BDBD"
+                    android:gravity="center"
+                    android:text="Android \n Portfolio \n Apps"
+                    android:textColor="#770303"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15sp"
+                    android:background="#C4BDBD"
+                    android:gravity="center"
+                    android:text="Android \n Presentation  \n Apps"
+                    android:textColor="#770303"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="25sp"
+                    android:background="#C4BDBD"
+                    android:gravity="center"
+                    android:text="Android \n References \n Apps"
+                    android:textColor="#770303"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="25sp"
+                    android:background="#C4BDBD"
+                    android:gravity="center"
+                    android:text="Android \n Video \n Apps"
+                    android:textColor="#770303"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="28sp"
+                    android:background="#C4BDBD"
+                    android:gravity="center"
+                    android:text="Android \n Mind mapping \n Apps"
+                    android:textColor="#770303"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            //LINEAR LAYOUT COMPLETO
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="14sp"
+                android:layout_marginLeft="2sp">
+
+                //LINEAR LAYOUT IMAGENES
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#C4BDBD"
+                    android:orientation="horizontal">
+
+                    //LINEAR LAYOUT IMAGEN/TEXTO
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="2sp">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="60sp"
+                            android:layout_height="70sp"
+                            android:layout_gravity="top"
+                            android:layout_margin="5sp"
+                            app:srcCompat="@drawable/keep_80" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center|bottom"
+                            android:text="Google Keep"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="2sp">
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:layout_gravity="top"
+                            android:layout_marginLeft="5sp"
+                            android:layout_margin="3sp"
+                            app:srcCompat="@drawable/evernote" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10sp"
+                            android:gravity="center|bottom"
+                            android:text="Evernote"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="2sp">
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="60sp"
+                            android:layout_height="70sp"
+                            android:layout_gravity="top"
+                            android:layout_margin="3sp"
+                            android:layout_marginLeft="5sp"
+                            app:srcCompat="@drawable/onenote" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10sp"
+                            android:gravity="center|bottom"
+                            android:text="OneNote"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+//---------------------------------------SEGUNGA--------------------------
+                   //LINEAR LAYOUT IMAGENES
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:background="#C4BDBD"
+                    android:orientation="horizontal">
+
+                    //LINEAR LAYOUT IMAGEN/TEXTO
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="2sp">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="top"
+                            android:layout_margin="3sp"
+                            app:srcCompat="@drawable/weebly" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center|bottom"
+                            android:text="Weedy"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="2sp">
+
+                        <ImageView
+                            android:id="@+id/imageView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="top"
+                            android:layout_margin="3sp"
+                            android:layout_marginLeft="10sp"
+                            app:srcCompat="@drawable/circulo" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10sp"
+                            android:gravity="center|bottom"
+                            android:text="Three Ring"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="2sp">
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="70sp"
+                            android:layout_height="60sp"
+                            android:layout_gravity="top"
+                            android:layout_margin="3sp"
+                            android:layout_marginLeft="10sp"
+                            app:srcCompat="@drawable/seesaw" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10sp"
+                            android:gravity="center|bottom"
+                            android:text="Seesaw"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+//---------------------------------------TERCERA--------------------------
+                //LINEAR LAYOUT IMAGENES
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:background="#C4BDBD"
+                    android:orientation="horizontal">
+
+                    //LINEAR LAYOUT IMAGEN/TEXTO
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="2sp">
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="60sp"
+                            android:layout_height="70sp"
+                            android:layout_gravity="top"
+                            android:layout_margin="7sp"
+                            app:srcCompat="@drawable/slides" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center|bottom"
+                            android:text="Google Slides"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="2sp">
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="60sp"
+                            android:layout_height="70sp"
+                            android:layout_gravity="top"
+                            android:layout_margin="7sp"
+                            android:layout_marginLeft="10sp"
+                            app:srcCompat="@drawable/powerpoint" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10sp"
+                            android:gravity="center|bottom"
+                            android:text="PowerPoint"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="2sp">
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="60sp"
+                            android:layout_height="70sp"
+                            android:layout_gravity="top"
+                            android:layout_margin="5sp"
+                            android:layout_marginLeft="10sp"
+                            app:srcCompat="@drawable/prezi" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10sp"
+                            android:gravity="center|bottom"
+                            android:text="Prezi Viewer"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+//---------------------------------------CUARTA--------------------------
+                //LINEAR LAYOUT IMAGENES
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:background="#C4BDBD"
+                    android:orientation="horizontal">
+
+                    //LINEAR LAYOUT IMAGEN/TEXTO
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="2sp">
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="70sp"
+                            android:layout_height="70sp"
+                            android:layout_gravity="top"
+                            android:layout_margin="3sp"
+                            app:srcCompat="@drawable/imagen13" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center|bottom"
+                            android:text="EasyBib"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="2sp">
+
+                        <ImageView
+                            android:id="@+id/imageView16"
+                            android:layout_width="60sp"
+                            android:layout_height="70sp"
+                            android:layout_gravity="top"
+                            android:layout_margin="3sp"
+                            android:layout_marginLeft="10sp"
+                            app:srcCompat="@drawable/cite"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10sp"
+                            android:gravity="center|bottom"
+                            android:text="Cite This For Me"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="2sp">
+
+                        <ImageView
+                            android:id="@+id/imageView17"
+                            android:layout_width="70sp"
+                            android:layout_height="70sp"
+                            android:layout_gravity="top"
+                            android:layout_margin="3sp"
+                            android:layout_marginLeft="10sp"
+                            app:srcCompat="@drawable/mendeleydesktop_93629" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10sp"
+                            android:gravity="center|bottom"
+                            android:text="Mendeley"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+//---------------------------------------QUINTA--------------------------
+                //LINEAR LAYOUT IMAGENES
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:background="#C4BDBD"
+                    android:orientation="horizontal">
+
+                    //LINEAR LAYOUT IMAGEN/TEXTO
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="2sp">
+
+                        <ImageView
+                            android:id="@+id/imageView18"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="top"
+                            android:layout_margin="3sp"
+                            app:srcCompat="@drawable/myvideoapplications_video_film_2057" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center|bottom"
+                            android:text="Magisto Video \n Editor & Maker"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="2sp">
+
+                        <ImageView
+                            android:id="@+id/imageView19"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="top"
+                            android:layout_margin="3sp"
+                            android:layout_marginLeft="10sp"
+                            app:srcCompat="@drawable/video_s1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10sp"
+                            android:gravity="center|bottom"
+                            android:text="Video Editor"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="12sp">
+
+                        <ImageView
+                            android:id="@+id/imageView20"
+                            android:layout_width="60sp"
+                            android:layout_height="70sp"
+                            android:layout_gravity="top"
+                            android:layout_margin="3sp"
+                            android:layout_marginLeft="10sp"
+                            app:srcCompat="@drawable/imagen17" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="5sp"
+                            android:gravity="center|bottom"
+                            android:text="Animoto Video \n Maker"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+//---------------------------------------SEXTA--------------------------
+                //LINEAR LAYOUT IMAGENES
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:background="#C4BDBD"
+                    android:orientation="horizontal">
+
+                    //LINEAR LAYOUT IMAGEN/TEXTO
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="4sp">
+
+                        <ImageView
+                            android:id="@+id/imageView21"
+                            android:layout_width="60sp"
+                            android:layout_height="60sp"
+                            android:layout_gravity="top"
+                            android:layout_margin="3sp"
+                            android:layout_marginLeft="10sp"
+                            app:srcCompat="@drawable/imagen18" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10sp"
+                            android:gravity="center|bottom"
+                            android:text="SimpleMind"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="4sp">
+
+                        <ImageView
+                            android:id="@+id/imageView22"
+                            android:layout_width="60sp"
+                            android:layout_height="70sp"
+                            android:layout_gravity="top"
+                            android:layout_margin="3sp"
+                            android:layout_marginLeft="10sp"
+                            app:srcCompat="@drawable/imagen19" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10sp"
+                            android:gravity="center|bottom"
+                            android:text="MindMeinster"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="14sp">
+
+                        <ImageView
+                            android:id="@+id/imageView23"
+                            android:layout_width="60sp"
+                            android:layout_height="70sp"
+                            android:layout_gravity="top"
+                            android:layout_margin="3sp"
+                            android:layout_marginLeft="10sp"
+                            app:srcCompat="@drawable/imagen20" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10sp"
+                            android:gravity="center|bottom"
+                            android:text="Mindomo"
+                            android:textColor="#000000"
+                            android:textSize="10sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>//FIN DE TODO
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
+</LinearLayout>
